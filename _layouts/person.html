@@ -4,7 +4,7 @@ layout: default
 <div class="container person-profile">
   <div class="person-header">
     <div class="person-photo-large">
-      {% if page.photo %}
+      {% if page.photo and page.photo != "" %}
         <img src="{{ page.photo | relative_url }}" alt="{{ page.name }}">
       {% else %}
         <div class="person-photo-placeholder">{{ page.name | slice: 0 }}</div>

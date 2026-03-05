@@ -10,8 +10,8 @@ permalink: /people/
   {% for person in pis %}
   <article class="team-card">
     <div class="team-photo">
-      {% if person.photo %}
-      <img src="{{ person.photo }}" alt="{{ person.name }}">
+      {% if person.photo and person.photo != "" %}
+      <img src="{{ person.photo | relative_url }}" alt="{{ person.name }}">
       {% else %}
       <div class="team-photo-placeholder">{{ person.name | slice: 0 }}</div>
       {% endif %}
@@ -19,7 +19,7 @@ permalink: /people/
     <div class="team-info">
       <h3 class="team-name">{{ person.name }}</h3>
       <p class="team-role">{{ person.position }}</p>
-      <a href="{{ person.url }}" class="team-link">View Profile →</a>
+      <a href="{{ person.url | relative_url }}" class="team-link">View Profile →</a>
     </div>
   </article>
   {% endfor %}
@@ -31,8 +31,8 @@ permalink: /people/
   {% for person in researchers %}
   <article class="team-card">
     <div class="team-photo">
-      {% if person.photo %}
-      <img src="{{ person.photo }}" alt="{{ person.name }}">
+      {% if person.photo and person.photo != "" %}
+      <img src="{{ person.photo | relative_url }}" alt="{{ person.name }}">
       {% else %}
       <div class="team-photo-placeholder">{{ person.name | slice: 0 }}</div>
       {% endif %}
@@ -40,7 +40,7 @@ permalink: /people/
     <div class="team-info">
       <h3 class="team-name">{{ person.name }}</h3>
       <p class="team-role">{{ person.position }}</p>
-      <a href="{{ person.url }}" class="team-link">View Profile →</a>
+      <a href="{{ person.url | relative_url }}" class="team-link">View Profile →</a>
     </div>
   </article>
   {% endfor %}
@@ -52,8 +52,8 @@ permalink: /people/
   {% for person in phds %}
   <article class="team-card">
     <div class="team-photo">
-      {% if person.photo %}
-      <img src="{{ person.photo }}" alt="{{ person.name }}">
+      {% if person.photo and person.photo != "" %}
+      <img src="{{ person.photo | relative_url }}" alt="{{ person.name }}">
       {% else %}
       <div class="team-photo-placeholder">{{ person.name | slice: 0 }}</div>
       {% endif %}
@@ -61,7 +61,7 @@ permalink: /people/
     <div class="team-info">
       <h3 class="team-name">{{ person.name }}</h3>
       <p class="team-role">{{ person.position }}</p>
-      <a href="{{ person.url }}" class="team-link">View Profile →</a>
+      <a href="{{ person.url | relative_url }}" class="team-link">View Profile →</a>
     </div>
   </article>
   {% endfor %}

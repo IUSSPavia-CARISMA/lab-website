@@ -627,6 +627,16 @@ img {
   height: 200px;
   border-radius: 50%;
   overflow: hidden;
+  background-color: var(--color-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.person-photo-placeholder {
+  font-size: 5rem;
+  color: var(--color-muted);
+  font-family: var(--font-serif);
 }
 
 .person-photo-large img {

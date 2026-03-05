@@ -54,7 +54,7 @@ title: Home
   <div class="container">
     <div class="stats-grid">
       <div class="stat-item">
-        <span class="stat-number">{{ site.lab.founded | minus: 2026 | abs }}</span>
+        <span class="stat-number">{{ "now" | date: "%Y" | minus: site.lab.founded }}</span>
         <span class="stat-label">Years Active</span>
       </div>
       <div class="stat-item">
@@ -87,8 +87,8 @@ title: Home
       {% for person in leaders limit:2 %}
       <article class="team-card team-card-featured">
         <div class="team-photo">
-          {% if person.photo %}
-          <img src="{{ person.photo }}" alt="{{ person.name }}">
+          {% if person.photo and person.photo != "" %}
+          <img src="{{ person.photo | relative_url }}" alt="{{ person.name }}">
           {% else %}
           <div class="team-photo-placeholder">{{ person.name | slice: 0 }}</div>
           {% endif %}
@@ -96,8 +96,8 @@ title: Home
         <div class="team-info">
           <h3 class="team-name">{{ person.name }}</h3>
           <p class="team-role">{{ person.position }}</p>
-          <p class="team-bio">{{ person.bio | strip_html | truncatewords: 15 }}</p>
-          <a href="{{ person.url }}" class="team-link">View Profile →</a>
+          <p class="team-bio">{{ person.content | strip_html | truncatewords: 15 }}</p>
+          <a href="{{ person.url | relative_url }}" class="team-link">View Profile →</a>
         </div>
       </article>
       {% endfor %}
