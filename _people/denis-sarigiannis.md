@@ -13,7 +13,3 @@ photo: ""
 ---
 
 Denis Sarigiannis is listed by IUSS Pavia as a professor in environmental and sanitary engineering. The current IUSS page links to his curriculum and publication record but does not provide a short biography summary.
-
-[IUSS profile](https://www.iusspavia.it/en/contacts/dimosthenis-sarigiannis)
-
-[IUSS research profile](https://research.iusspavia.it/simple-search?query=Sarigiannis)

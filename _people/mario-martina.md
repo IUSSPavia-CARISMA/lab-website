@@ -13,7 +13,3 @@ photo: ""
 ---
 
 Mario Martina is Rector of IUSS Pavia and a full professor whose research spans hydrology, hydraulic risk and the socio-economic impacts of climate change. His work also includes weather-related risk models, insurance and reinsurance applications, and disaster risk finance.
-
-[IUSS profile](https://www.iusspavia.it/en/contacts/mario-lloyd-virgilio-martina)
-
-[IUSS research profile](https://research.iusspavia.it/simple-search?query=mario)

@@ -7,10 +7,10 @@ group: "Associate Professor"
 sort_order: 1
 email: ""
 orcid: "https://orcid.org/0000-0002-4845-8905"
+iuss_page: "https://www.iusspavia.it/en/contacts/marcello-arosio"
 iuss_research: "https://research.iusspavia.it/simple-search?query=Arosio"
+website: "https://marcelloarosio.github.io"
 photo: ""
 ---
 
-Profile details for Dr. Marcello Arosio can be updated here.
-
-[IUSS research profile](https://research.iusspavia.it/simple-search?query=Arosio)
+Marcello Arosio is a researcher in hydrology and hydraulic structures at IUSS Pavia. His work focuses on hydrological modelling, hydroclimatic risk assessment, multi-hazard analysis and the use of data-driven methods to support flood and climate-risk evaluation.
