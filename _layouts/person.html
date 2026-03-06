@@ -22,6 +22,15 @@ layout: default
       {% if page.orcid %}
         <p class="person-orcid"><a href="{{ page.orcid }}" target="_blank" rel="noreferrer">ORCID</a></p>
       {% endif %}
+      {% if page.website %}
+        <p class="person-link"><a href="{{ page.website }}" target="_blank" rel="noreferrer">Personal website</a></p>
+      {% endif %}
+      {% if page.iuss_page %}
+        <p class="person-link"><a href="{{ page.iuss_page }}" target="_blank" rel="noreferrer">IUSS profile</a></p>
+      {% endif %}
+      {% if page.iuss_research %}
+        <p class="person-link"><a href="{{ page.iuss_research }}" target="_blank" rel="noreferrer">IUSS research profile</a></p>
+      {% endif %}
       {% if page.phd_program %}
         <p class="person-program">{{ page.phd_program }}</p>
       {% endif %}

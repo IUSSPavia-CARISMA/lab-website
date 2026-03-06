@@ -842,6 +842,10 @@ img {
   margin-top: var(--spacing-sm);
 }
 
+.person-link {
+  margin-top: var(--spacing-sm);
+}
+
 .person-program {
   margin-top: var(--spacing-sm);
   color: var(--color-muted);
