@@ -19,6 +19,9 @@ layout: default
       {% if page.email %}
         <a href="mailto:{{ page.email }}" class="person-email">{{ page.email }}</a>
       {% endif %}
+      {% if page.phd_program %}
+        <p class="person-program">{{ page.phd_program }}</p>
+      {% endif %}
     </div>
   </div>
 

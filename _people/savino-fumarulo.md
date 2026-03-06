@@ -1,0 +1,13 @@
+---
+name: "Dr. Savino Fumarulo"
+slug: "savino-fumarulo"
+position: "PhD Student"
+role: "PhD Student"
+group: "PhD Student"
+phd_program: "PhD programme details can be updated here."
+sort_order: 12
+email: ""
+photo: ""
+---
+
+Profile details for Dr. Savino Fumarulo can be updated here.

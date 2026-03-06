@@ -41,66 +41,12 @@ title: CARISMA
     {% for paragraph in site.lab.overview.intro %}
     <p>{{ paragraph }}</p>
     {% endfor %}
-  </div>
-</section>
-
-<section class="centre-section centre-section-alt" markdown="0">
-  <div class="container two-column-grid">
-    <div class="info-panel">
-      <h2>Main Objectives</h2>
-      <ul class="plain-list">
-        {% for item in site.lab.overview.objectives %}
-        <li>{{ item }}</li>
-        {% endfor %}
-      </ul>
-    </div>
-    <div class="info-panel">
-      <h2>Main Research Activities</h2>
-      <ul class="plain-list">
-        {% for item in site.lab.overview.activities %}
-        <li>{{ item }}</li>
-        {% endfor %}
-      </ul>
-    </div>
-  </div>
-</section>
-
-<section class="centre-section" markdown="0">
-  <div class="container prose-block">
-    <h2>Research Areas</h2>
-    <div class="editorial-sections">
-      {% for area in site.lab.activity_sections %}
-      <article class="editorial-item">
-        <h3>{{ area.title }}</h3>
-        {% for paragraph in area.paragraphs %}
-        <p>{{ paragraph }}</p>
-        {% endfor %}
-      </article>
-      {% endfor %}
-    </div>
-  </div>
-</section>
-
-<section class="centre-section centre-section-alt" markdown="0">
-  <div class="container">
-    <h2>Research Projects</h2>
-    <ul class="project-list">
-      {% for item in site.lab.projects %}
+    <h2>Main Objectives</h2>
+    <ul class="plain-list">
+      {% for item in site.lab.overview.objectives %}
       <li>{{ item }}</li>
       {% endfor %}
     </ul>
-  </div>
-</section>
-
-<section class="centre-section" markdown="0">
-  <div class="container">
-    <h2>People</h2>
-    <p class="section-intro">Head of Research Centre: {{ site.lab.head }}</p>
-    <div class="name-grid">
-      {% for person in site.lab.people.staff %}
-      <div class="name-chip">{{ person }}</div>
-      {% endfor %}
-    </div>
   </div>
 </section>
 

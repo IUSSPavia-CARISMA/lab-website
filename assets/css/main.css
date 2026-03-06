@@ -364,6 +364,35 @@ img {
   background-color: #fbfcfc;
 }
 
+.people-directory {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.directory-card {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 1rem 1.1rem;
+  background-color: #fbfcfc;
+}
+
+.directory-name {
+  font-size: 1.1rem;
+  margin-bottom: 0.35rem;
+}
+
+.directory-role {
+  color: var(--color-text);
+  margin-bottom: 0.2rem;
+}
+
+.directory-meta {
+  color: var(--color-muted);
+  font-size: 0.95rem;
+}
+
 /* Sections */
 .section {
   padding: var(--spacing-xl) 0;
@@ -815,6 +844,11 @@ img {
 .person-email {
   display: block;
   margin-top: var(--spacing-sm);
+}
+
+.person-program {
+  margin-top: var(--spacing-sm);
+  color: var(--color-muted);
 }
 
 /* Research Detail Specific */
