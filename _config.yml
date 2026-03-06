@@ -11,7 +11,7 @@ baseurl: "/lab-website"
 
 # Lab Information
 lab:
-  name: "AgroSystems Lab"
+  name: "CARISMA Lab"
   tagline: "Where Agriculture Meets Innovation"
   department: "Department of Crop Science"
   university: "University Name"
