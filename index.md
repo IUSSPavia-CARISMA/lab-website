@@ -12,14 +12,13 @@ title: CARISMA
       <p class="centre-summary">{{ site.lab.tagline }}</p>
       <p class="centre-affiliation">
         Part of <a href="https://www.iusspavia.it/en" target="_blank" rel="noreferrer">IUSS Pavia</a>.
-      </div>
+      </p>
     </div>
   </div>
 </section>
 
 <section class="centre-section" markdown="0">
   <div class="container prose-block">
-    <h2>Overview</h2>
     {% for paragraph in site.lab.overview.intro %}
     <p>{{ paragraph }}</p>
     {% endfor %}
