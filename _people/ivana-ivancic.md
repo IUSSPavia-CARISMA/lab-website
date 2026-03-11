@@ -1,12 +1,14 @@
 ---
-name: "Dott.ssa Ivana Ivančić"
+name: "Ivana Ivančić"
 slug: "ivana-ivancic"
 position: "PhD Student"
 role: "PhD Student"
 group: "PhD Student"
 phd_program: "PhD programme details can be updated here."
 sort_order: 8
-email: ""
+email: "ivana.ivancic@iusspavia.it"
+researchgate: ""
+linkedin: ""
 photo: ""
 ---
 

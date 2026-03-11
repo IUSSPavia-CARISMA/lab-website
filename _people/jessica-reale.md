@@ -1,11 +1,13 @@
 ---
-name: "Dott.ssa Jessica Reale"
+name: "Jessica Reale, PhD"
 slug: "jessica-reale"
 position: "Postdoctoral Researcher"
 role: "Postdoc"
 group: "Postdoc"
 sort_order: 2
-email: ""
+email: "jessica.reale@iusspavia.it"
+researchgate: ""
+linkedin: ""
 photo: ""
 ---
 

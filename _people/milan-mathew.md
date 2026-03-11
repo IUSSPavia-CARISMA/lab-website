@@ -1,12 +1,14 @@
 ---
-name: "Dott.ssa Milan Mathew"
+name: "Milan Mathew"
 slug: "milan-mathew"
 position: "PhD Student"
 role: "PhD Student"
 group: "PhD Student"
 phd_program: "PhD programme details can be updated here."
 sort_order: 9
-email: ""
+email: "milan.mathew@iusspavia.it"
+researchgate: ""
+linkedin: ""
 photo: ""
 ---
 

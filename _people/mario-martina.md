@@ -1,11 +1,13 @@
 ---
-name: "Prof. Mario Martina"
+name: "Mario Martina, Prof."
 slug: "mario-martina"
-position: "Rector"
+position: "Full Professor in Hydrology"
 role: "Professor"
 group: "Professor"
 sort_order: 1
-email: ""
+email: "mario.martina@iusspavia.it"
+researchgate: ""
+linkedin: ""
 orcid: "https://orcid.org/0000-0001-6283-2732"
 iuss_page: "https://www.iusspavia.it/en/contacts/mario-lloyd-virgilio-martina"
 iuss_research: "https://research.iusspavia.it/simple-search?query=mario"

@@ -1,11 +1,13 @@
 ---
-name: "Prof.ssa Giorgia Fosser"
+name: "Giorgia Fosser, Prof."
 slug: "giorgia-fosser"
-position: "Professor"
+position: "Associate Professor"
 role: "Professor"
 group: "Professor"
 sort_order: 7
-email: ""
+email: "giorgia.fosser@iusspavia.it"
+researchgate: ""
+linkedin: ""
 orcid: "https://orcid.org/0000-0002-0578-6431"
 iuss_page: "https://www.iusspavia.it/en/contacts/giorgia-fosser"
 iuss_research: "https://research.iusspavia.it/simple-search?query=fosser"

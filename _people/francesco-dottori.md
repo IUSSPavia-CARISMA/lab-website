@@ -1,11 +1,13 @@
 ---
-name: "Prof. Francesco Dottori"
+name: "Francesco Dottori, Prof."
 slug: "francesco-dottori"
-position: "Professor"
+position: "Associate Professor in Hydrology"
 role: "Professor"
 group: "Professor"
 sort_order: 6
-email: ""
+email: "francesco.dottori@iusspavia.it"
+researchgate: ""
+linkedin: ""
 orcid: "https://orcid.org/0000-0002-1388-3303"
 iuss_page: "https://www.iusspavia.it/en/contacts/francesco-dottori"
 iuss_research: "https://research.iusspavia.it/simple-search?query=dottori"

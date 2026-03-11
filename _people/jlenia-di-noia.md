@@ -1,11 +1,13 @@
 ---
-name: "Dott.ssa Jlenia Di Noia"
+name: "Jlenia Di Noia, PhD"
 slug: "jlenia-di-noia"
 position: "Postdoctoral Researcher"
 role: "Postdoc"
 group: "Postdoc"
 sort_order: 3
-email: ""
+email: "jlenia.dinoia@iusspavia.it"
+researchgate: ""
+linkedin: ""
 photo: ""
 ---
 

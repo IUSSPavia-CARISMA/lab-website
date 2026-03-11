@@ -1,11 +1,13 @@
 ---
-name: "Prof. Alessandro Caiani"
+name: "Alessandro Caiani, Prof."
 slug: "alessandro-caiani"
-position: "Professor"
+position: "Associate Professor"
 role: "Professor"
 group: "Professor"
 sort_order: 3
-email: ""
+email: "alessandro.caiani@iusspavia.it"
+researchgate: ""
+linkedin: ""
 orcid: ""
 iuss_page: "https://www.iusspavia.it/en/contacts/alessandro-caiani"
 iuss_research: "https://research.iusspavia.it/simple-search?query=caiani"

@@ -1,11 +1,13 @@
 ---
-name: "Dott.ssa Serena Sapio"
+name: "Serena Sapio, PhD"
 slug: "serena-sapio"
 position: "Postdoctoral Researcher"
 role: "Postdoc"
 group: "Postdoc"
 sort_order: 5
-email: ""
+email: "serena.sapio@iusspavia.it"
+researchgate: ""
+linkedin: ""
 photo: ""
 ---
 

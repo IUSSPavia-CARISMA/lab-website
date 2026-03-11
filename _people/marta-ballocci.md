@@ -1,11 +1,13 @@
 ---
-name: "Dott.ssa Marta Ballocci"
+name: "Marta Ballocci, PhD"
 slug: "marta-ballocci"
 position: "Postdoctoral Researcher"
 role: "Postdoc"
 group: "Postdoc"
 sort_order: 4
-email: ""
+email: "marta.ballocci@iusspavia.it"
+researchgate: ""
+linkedin: ""
 photo: ""
 ---
 

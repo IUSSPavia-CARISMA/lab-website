@@ -35,10 +35,9 @@ lab:
     intro:
       - "Driven by curiosity and societal need, CARISMA brings together an interdisciplinary team of researchers — spanning climate modelling, hydrology, remote sensing, atmospheric physics, environmental engineering, and economics — to advance integrated research on climate change and sustainable development."
     objectives:
-      - "Data analysis and modelling of the processes of the Earth system and the economic system."
-      - "Assessment of the impact on the environment and humans of extreme natural events and human activities, with particular reference to climate change."
-      - "Assessment and management of impact-associated risk."
-      - "Formulation and proposal of new economic, political and legal models of sustainable development."
+    - "Understand: modelling Earth-system and socio-economic processes to characterise climate variability, change, and its drivers."
+    - "Assess: quantifying the impacts of extreme weather events and long-term climate change on the environment, infrastructure, and human systems."
+    - "Inform: translating risk assessments into actionable knowledge for adaptation, policy, and sustainable development."
     activities:
       - "Evaluation of possible climate evolution and the effects of climate change and climate variability on the environment, on humans and social organizations, in support of sustainable development."
       - "Integration of climate change in risk analysis and management through the use of data and climate modelling."
@@ -143,10 +142,16 @@ social:
 
 # Navigation
 navigation:
-  - title: "Research"
-    url: "/research/"
+  - title: "About us"
+    url: "/about/"
   - title: "People"
     url: "/people/"
+  - title: "Research"
+    url: "/research/"
+  - title: "Publications"
+    url: "/publications/"
+  - title: "Education"
+    url: "/education/"
   - title: "News"
     url: "/news/"
   - title: "Contact"

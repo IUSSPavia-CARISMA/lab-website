@@ -1,12 +1,14 @@
 ---
-name: "Dr. Tan Nguyen Minh Phan"
+name: "Tan Nguyen Minh Phan"
 slug: "tan-nguyen-minh-phan"
 position: "PhD Student"
 role: "PhD Student"
 group: "PhD Student"
 phd_program: "PhD programme details can be updated here."
 sort_order: 13
-email: ""
+email: "tan.phan@iusspavia.it"
+researchgate: ""
+linkedin: ""
 photo: ""
 ---
 

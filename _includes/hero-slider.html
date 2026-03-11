@@ -2,9 +2,13 @@
   <div class="slider-container">
     {% for slide in site.hero_slider.slides %}
     <div class="slide {% if forloop.first %}active{% endif %}" data-index="{{ forloop.index0 }}">
-      <img src="{{ slide.image | relative_url }}" alt="{{ slide.caption }}" loading="{% if forloop.first %}eager{% else %}lazy{% endif %}">
-      <div class="slide-caption">
-        <p>{{ slide.caption }}</p>
+      <div class="slide-inner">
+        <div class="slide-image">
+          <img src="{{ slide.image | relative_url }}" alt="{{ slide.caption }}" loading="{% if forloop.first %}eager{% else %}lazy{% endif %}">
+        </div>
+        <div class="slide-caption">
+          <p>{{ slide.caption }}</p>
+        </div>
       </div>
     </div>
     {% endfor %}

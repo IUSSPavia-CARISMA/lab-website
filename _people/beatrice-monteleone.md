@@ -1,11 +1,13 @@
 ---
-name: "Dott.ssa Beatrice Monteleone"
+name: "Beatrice Monteleone, PhD"
 slug: "beatrice-monteleone"
 position: "Postdoctoral Researcher"
 role: "Postdoc"
 group: "Postdoc"
 sort_order: 1
-email: ""
+email: "beatrice.monteleone@iusspavia.it"
+researchgate: ""
+linkedin: ""
 photo: ""
 ---
 

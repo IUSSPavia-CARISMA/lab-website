@@ -1,11 +1,13 @@
 ---
-name: "Prof. Alessio Ricci"
+name: "Alessio Ricci, Prof."
 slug: "alessio-ricci"
-position: "Professor"
+position: "Associate Professor"
 role: "Professor"
 group: "Professor"
 sort_order: 4
-email: ""
+email: "alessio.ricci@iusspavia.it"
+researchgate: ""
+linkedin: ""
 orcid: "https://orcid.org/0000-0002-7981-8117"
 iuss_page: "https://www.iusspavia.it/it/rubrica/alessio-ricci"
 iuss_research: "https://research.iusspavia.it/simple-search?query=ricci"

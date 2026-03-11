@@ -1,11 +1,13 @@
 ---
-name: "Prof. Andrea Taramelli"
+name: "Andrea Taramelli, Prof."
 slug: "andrea-taramelli"
-position: "Professor"
+position: "Full Professor"
 role: "Professor"
 group: "Professor"
 sort_order: 2
-email: ""
+email: "andrea.taramelli@iusspavia.it"
+researchgate: ""
+linkedin: ""
 orcid: "https://orcid.org/0000-0003-0865-4124"
 iuss_page: "https://www.iusspavia.it/en/contacts/andrea-taramelli"
 iuss_research: "https://research.iusspavia.it/simple-search?query=taramelli"
