@@ -29,8 +29,9 @@ permalink: /research/
 
 <div class="prose-block people-section">
   <h2>Research Projects</h2>
-  <ul class="project-list">
-    {% for item in site.lab.projects %}
+  <ul class="project-list project-list-grid">
+    {% assign sorted_projects = site.lab.projects | sort %}
+    {% for item in sorted_projects %}
     <li>{{ item }}</li>
     {% endfor %}
   </ul>
@@ -42,7 +43,8 @@ permalink: /research/
     <div class="info-panel">
       <h3>National</h3>
       <ul class="plain-list">
-        {% for item in site.lab.collaborations.national %}
+        {% assign sorted_national = site.lab.collaborations.national | sort %}
+        {% for item in sorted_national %}
         <li>{{ item }}</li>
         {% endfor %}
       </ul>
@@ -50,7 +52,8 @@ permalink: /research/
     <div class="info-panel">
       <h3>International</h3>
       <ul class="plain-list">
-        {% for item in site.lab.collaborations.international %}
+        {% assign sorted_international = site.lab.collaborations.international | sort %}
+        {% for item in sorted_international %}
         <li>{{ item }}</li>
         {% endfor %}
       </ul>

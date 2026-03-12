@@ -1,5 +1,5 @@
 ---
-name: "Savino Fumarulo"
+name: "Savino Fumarulo, MSc"
 slug: "savino-fumarulo"
 position: "PhD Student"
 role: "PhD Student"

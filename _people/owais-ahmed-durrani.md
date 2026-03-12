@@ -1,5 +1,5 @@
 ---
-name: "Owais Ahmed Durrani"
+name: "Owais Ahmed Durrani, MSc"
 slug: "owais-ahmed-durrani"
 position: "PhD Student"
 role: "PhD Student"
@@ -9,7 +9,7 @@ sort_order: 10
 email: "ahmed.durrani@iusspavia.it"
 researchgate: ""
 linkedin: ""
-photo: "assets/img/people/owais.jpeg"
+photo: ""
 ---
 
 Profile details for Dr. Owais Ahmed Durrani can be updated here.

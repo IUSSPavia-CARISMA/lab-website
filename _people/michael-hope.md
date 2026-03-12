@@ -1,5 +1,5 @@
 ---
-name: "Michael Hope"
+name: "Michael Hope, MSc"
 slug: "michael-hope"
 position: "PhD Student"
 role: "PhD Student"
@@ -9,7 +9,7 @@ sort_order: 20
 email: "michael.hope@iusspavia.it"
 researchgate: ""
 linkedin: ""
-photo: "assets/img/people/michael.jpeg"
+photo: ""
 ---
 
 Profile details for Dr. Michael Hope can be updated here.

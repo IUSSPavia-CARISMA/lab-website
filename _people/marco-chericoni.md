@@ -1,5 +1,5 @@
 ---
-name: "Marco Chericoni"
+name: "Marco Chericoni, MSc"
 slug: "marco-chericoni"
 position: "PhD Student"
 role: "PhD Student"

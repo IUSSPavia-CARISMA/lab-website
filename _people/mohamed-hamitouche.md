@@ -1,5 +1,5 @@
 ---
-name: "Mohamed Hamitouche"
+name: "Mohamed Hamitouche, MSc"
 slug: "mohamed-hamitouche"
 position: "PhD Student"
 role: "PhD Student"

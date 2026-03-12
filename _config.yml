@@ -60,20 +60,20 @@ lab:
         - "Work covers value chains, greenhouse gas emissions, macroeconomic and financial risk, green transition policies, macro-prudential tools and transition risk in carbon-intensive sectors."
         - "Analyses combine agent-based and stock-flow consistent macroeconomic models, network models, econometrics and machine learning."
   projects:
+    - "ADAPTNOW (Interreg Alpine Space Program)"
     - "ANTICIPATE (COST Action)"
     - "Atmospheric aerosol emissions and transport in southern Africa (Programma Galileo)"
-    - "RESILIENCE (CARIPARO)"
-    - "Dipartimento d'Eccellenza (MUR)"
-    - "Ecliptic (PRIN22)"
-    - "HOLISTIC (PNRA)"
-    - "Space It Up (ASI)"
-    - "NEWS (PRIN22 PNRR)"
-    - "ADAPTNOW (Interreg Alpine Space Program)"
     - "CLIMATHUNDERR (ERIES)"
     - "EXTRALOADINPORTS (ERIES)"
     - "CoPe (PNRR)"
     - "CU-BOLD (ERIES)"
+    - "Dipartimento d'Eccellenza (MUR)"
+    - "Ecliptic (PRIN22)"
+    - "HOLISTIC (PNRA)"
     - "LIDAR (ERIES)"
+    - "NEWS (PRIN22 PNRR)"
+    - "RESILIENCE (CARIPARO)"
+    - "Space It Up (ASI)"
   people:
     former_members:
       - name: "Angela Modica Scala, PhD"
@@ -115,23 +115,23 @@ lab:
       doi: "https://doi.org/10.5194/nhess-25-4263-2025"
   collaborations:
     national:
+      - "Comune di Milano"
       - "ENEA"
+      - "IRPET"
+      - "ISAC CNR"
+      - "ISPRA"
+      - "Politecnico di Milano"
+      - "RED Risk"
+      - "Sanpellegrino SpA, Stabilimento Levissima"
+      - "Universita degli Studi di Genova"
       - "Universita degli Studi di Padova, Dipartimento di Ingegneria Civile, Edile e Ambientale"
       - "Universita degli Studi di Padova, Dipartimento Territorio e Sistemi Agro-Forestali"
-      - "IRPET"
-      - "RED Risk"
-      - "ISPRA"
-      - "ISAC CNR"
-      - "Politecnico di Milano"
-      - "Comune di Milano"
-      - "Universita degli Studi di Genova"
-      - "Sanpellegrino SpA, Stabilimento Levissima"
     international:
+      - "Agence Francaise de Developpement, Paris"
+      - "Biogeosciences, Universite Bourgogne Europe, Dijon"
+      - "Gallagher RE, London"
       - "LATMOS CNRS, Paris"
       - "LISA CNRS, Creteil"
-      - "Biogeosciences, Universite Bourgogne Europe, Dijon"
-      - "Agence Francaise de Developpement, Paris"
-      - "Gallagher RE, London"
   publications:
     - name: "Marco Gaetani"
       url: "https://research.iusspavia.it/cris/rp/rp04079"
@@ -200,7 +200,7 @@ collections:
   publications:
     output: false
   research:
-    output: true
+    output: false
     permalink: /research/:name/
   news:
     output: true

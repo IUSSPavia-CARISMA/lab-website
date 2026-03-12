@@ -1,5 +1,5 @@
 ---
-name: "Priyadarshi Maurya"
+name: "Priyadarshi Maurya, MSc"
 slug: "priyadarshi-maurya"
 position: "PhD Student"
 role: "PhD Student"

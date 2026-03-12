@@ -12,15 +12,8 @@ permalink: /about/
   <div class="two-column-grid">
     <div>
       <p><strong>{{ site.lab.full_name }} ({{ site.lab.name }})</strong> was founded in {{ site.lab.founded }} at {{ site.lab.university }} and is led by {{ site.lab.head }}.</p>
-      {% for paragraph in site.lab.overview.intro %}
-      <p>{{ paragraph }}</p>
-      {% endfor %}
-      <h3>Our Objectives</h3>
-      <ul class="plain-list">
-        {% for item in site.lab.overview.objectives %}
-        <li>{{ item | markdownify }}</li>
-        {% endfor %}
-      </ul>
+      <p>The origins of CARISMA lie in research activities developed at IUSS Pavia within the ROSE School, originally focused on earthquake risk assessment. Over time, the research scope progressively expanded to include flood risk and, more broadly, the impacts of climate change on natural hazards. The integration of these research lines between 2014 and 2018 led to the creation of a dedicated research group in 2019, initially named CLIMAX. As the group expanded, its activities evolved towards a unified framework aimed at understanding and managing extreme events and climate related risks. This process ultimately resulted in the establishment of CARISMA, which brings together expertise in engineering, physics, and economics to advance research on climate related risks and to support evidence based risk management strategies.</p> 
+      <p>The group currently consists of 34 members.</p>
     </div>
     <div class="history-images">
       <figure class="history-image-card">
@@ -31,12 +24,12 @@ permalink: /about/
         <img src="{{ '/assets/img/carisma_2022.jpeg' | relative_url }}" alt="CARISMA team 2022">
         <figcaption>CARISMA team - 2022</figcaption>
       </figure>
-      <figure class="history-image-card history-images-wide">
-        <img src="{{ '/assets/img/carisma_2026.jpeg' | relative_url }}" alt="CARISMA team 2026">
-        <figcaption>CARISMA team - 2026</figcaption>
-      </figure>
     </div>
   </div>
+  <figure class="history-image-featured history-image-card">
+    <img src="{{ '/assets/img/carisma_2026.jpeg' | relative_url }}" alt="CARISMA team 2026">
+    <figcaption>CARISMA team - 2026</figcaption>
+  </figure>
 </div>
 
 <div class="prose-block people-section">
@@ -61,8 +54,8 @@ permalink: /about/
       <p>The main building of IUSS Pavia is the historic Palazzo del Broletto in Piazza Vittoria 15, a 12th-century complex and one of Pavia's most prominent medieval landmarks. You can find instead our group at Palazzo Marelli, located in Piazza Ercole Marelli, part of a contemporary urban redevelopment of the former Ercole Marelli industrial area near the city's historic centre and close to the train station, now a mixed-use district hosting residential houses, private companies, medical labs and shops.</p>
       <p>You can then find our offices in Piazza Ercole Marelli 15 (second floor), Pavia, Italy. Follow the instructions to find us:</p>
       <ul class="plain-list">
-        <li><a href="{{https://www.google.com/maps?geocode=FcWRsQId1JuLAA%3D%3D;FUSRsQIdnJyLACnP_r5lbyeHRzHLbN-7sRo4Tg%3D%3D&daddr=Istituto+Universitario+di+Studi+Superiori(IUSS+Pavia),+P.za+Ercole+Marelli,+27100+Pavia+PV&saddr=45.1916208,9.1493955&dirflg=w&ftid=0x4787276f65befecf:0x4e381ab1bbdf6ccb&lucs=,94297699,94231188,94280568,47071704,94218641,94282134,94286869&g_ep=CAISEjI2LjEwLjIuODc3MzE3OTEwMBgAILq3Cyo_LDk0Mjk3Njk5LDk0MjMxMTg4LDk0MjgwNTY4LDQ3MDcxNzA0LDk0MjE4NjQxLDk0MjgyMTM0LDk0Mjg2ODY5QgJJVA%3D%3D&skid=904e327b-7e99-419b-93dc-7b59ee1350a6&g_st=ia}}" target="_blank" rel="noreferrer">Open map and directions</a></li>
-        <li><a href="{{ '/assets/pdf/how_to_find_us.pdf' | relative_url }}" target="_blank" rel="noreferrer">Open PDF directions</a></li>
+        <li><a href="https://www.google.com/maps/dir//Istituto+Universitario+di+Studi+Superiori(IUSS+Pavia),+P.za+Ercole+Marelli,+27100+Pavia+PV/@45.1865094,9.1520175,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x4787276f65befecf:0x4e381ab1bbdf6ccb!2m2!1d9.149596!2d45.1914915!3e2?entry=ttu&g_ep=EgoyMDI2MDMwOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noreferrer">Open map directions</a></li>
+        <li><a href="{{ '/assets/pdf/how_to_find_us.pdf' | relative_url }}" target="_blank" rel="noreferrer">Open pdf directions</a></li>
       </ul>
     </div>
     <div id="place-images" class="place-images">

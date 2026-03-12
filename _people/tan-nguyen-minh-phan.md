@@ -1,5 +1,5 @@
 ---
-name: "Tan Nguyen Minh Phan"
+name: "Tan Nguyen Minh Phan, MSc"
 slug: "tan-nguyen-minh-phan"
 position: "PhD Student"
 role: "PhD Student"

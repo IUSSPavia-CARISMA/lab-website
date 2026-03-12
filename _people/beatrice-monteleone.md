@@ -7,8 +7,9 @@ group: "Postdoc"
 sort_order: 1
 email: "beatrice.monteleone@iusspavia.it"
 researchgate: ""
+orcid: ""
 linkedin: ""
 photo: ""
 ---
 
-Profile details for Dott.ssa Beatrice Monteleone can be updated here.
+Profile details for Beatrice Monteleone can be updated here.

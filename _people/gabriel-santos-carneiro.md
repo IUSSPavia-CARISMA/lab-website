@@ -1,5 +1,5 @@
 ---
-name: "Gabriel Santos Carneiro"
+name: "Gabriel Santos Carneiro, MSc"
 slug: "gabriel-santos-carneiro"
 position: "PhD Student"
 role: "PhD Student"
@@ -8,6 +8,7 @@ phd_program: "PhD programme details can be updated here."
 sort_order: 7
 email: "gabriel.santos@iusspavia.it"
 researchgate: ""
+orcid: ""
 linkedin: ""
 photo: ""
 ---

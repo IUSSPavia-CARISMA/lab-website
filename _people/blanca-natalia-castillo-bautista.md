@@ -1,5 +1,5 @@
 ---
-name: "Blanca Natalia Castillo Bautista"
+name: "Blanca Natalia Castillo Bautista, MSc"
 slug: "blanca-natalia-castillo-bautista"
 position: "PhD Student"
 role: "PhD Student"
@@ -8,8 +8,9 @@ phd_program: "PhD programme details can be updated here."
 sort_order: 2
 email: "blanca.castillo@iusspavia.it"
 researchgate: ""
+orcid: ""
 linkedin: ""
 photo: ""
 ---
 
-Profile details for Dott.ssa Blanca Natalia Castillo Bautista can be updated here.
+Profile details for Blanca Natalia Castillo Bautista can be updated here.

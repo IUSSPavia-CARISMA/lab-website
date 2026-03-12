@@ -7,6 +7,7 @@ group: "Postdoc"
 sort_order: 3
 email: "jlenia.dinoia@iusspavia.it"
 researchgate: ""
+orcid: ""
 linkedin: ""
 photo: ""
 ---

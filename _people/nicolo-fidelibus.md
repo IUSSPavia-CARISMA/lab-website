@@ -1,5 +1,5 @@
 ---
-name: "Nicolò Fidelibus"
+name: "Nicolò Fidelibus, MSc"
 slug: "nicolo-fidelibus"
 position: "PhD Student"
 role: "PhD Student"

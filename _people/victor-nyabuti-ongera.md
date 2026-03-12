@@ -1,5 +1,5 @@
 ---
-name: "Victor Nyabuti Ong'era"
+name: "Victor Nyabuti Ong'era, MSc"
 slug: "victor-nyabuti-ongera"
 position: "PhD Student"
 role: "PhD Student"

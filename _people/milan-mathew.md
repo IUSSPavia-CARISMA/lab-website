@@ -1,5 +1,5 @@
 ---
-name: "Milan Mathew"
+name: "Milan Mathew, MSc"
 slug: "milan-mathew"
 position: "PhD Student"
 role: "PhD Student"

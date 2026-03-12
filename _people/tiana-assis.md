@@ -1,5 +1,5 @@
 ---
-name: "Tiana Assis"
+name: "Tiana Assis, MSc"
 slug: "tiana-assis"
 position: "PhD Student"
 role: "PhD Student"

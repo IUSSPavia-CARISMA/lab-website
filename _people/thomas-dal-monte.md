@@ -1,5 +1,5 @@
 ---
-name: "Thomas Dal Monte"
+name: "Thomas Dal Monte, MSc"
 slug: "thomas-dal-monte"
 position: "PhD Student"
 role: "PhD Student"
