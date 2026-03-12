@@ -414,6 +414,14 @@ img {
   margin-bottom: 0;
 }
 
+.project-list a {
+  color: var(--color-dark);
+}
+
+.project-list a:hover {
+  color: var(--color-dark);
+}
+
 .section-intro {
   margin-bottom: 1rem;
   color: var(--color-muted);

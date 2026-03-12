@@ -17,7 +17,12 @@ layout: default
   </header>
 
   <div class="research-content content-block">
-    {{ content }}
+    {% assign page_content = content | strip %}
+    {% if page_content == "" %}
+      <p>Research projects can be descriped here.</p>
+    {% else %}
+      {{ content }}
+    {% endif %}
   </div>
 
   {% if page.team and page.team.size > 0 %}

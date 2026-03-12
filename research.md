@@ -30,9 +30,9 @@ permalink: /research/
 <div class="prose-block people-section">
   <h2>Research Projects</h2>
   <ul class="project-list project-list-grid">
-    {% assign sorted_projects = site.lab.projects | sort %}
+    {% assign sorted_projects = site.research | where: "project", true | sort: "title" %}
     {% for item in sorted_projects %}
-    <li>{{ item }}</li>
+    <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
     {% endfor %}
   </ul>
 </div>

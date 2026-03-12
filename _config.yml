@@ -17,9 +17,9 @@ hero_slider:
     - image: "/assets/img/slider/carisma_at_egu25.jpeg"
       caption: "CARISMA team attending the EGU General Assembly 2025 in Vienna"
     - image: "/assets/img/slider/carisma_at_angela.jpeg"
-      caption: "CARISMA team celebrating Angela Modica Scala PhD Defence"
+      caption: "CARISMA team celebrating Angela PhD Defence"
     - image: "/assets/img/slider/carisma_and_bike.jpeg"
-      caption: "CARISMA team celebrating the finding of Alessandro Caiani bike"
+      caption: "CARISMA team celebrating the finding of Alessandro bike"
 
 # Lab Information
 lab:
@@ -59,21 +59,6 @@ lab:
         - "This research area focuses on mitigation strategies and the management of risks linked to ongoing climate change."
         - "Work covers value chains, greenhouse gas emissions, macroeconomic and financial risk, green transition policies, macro-prudential tools and transition risk in carbon-intensive sectors."
         - "Analyses combine agent-based and stock-flow consistent macroeconomic models, network models, econometrics and machine learning."
-  projects:
-    - "ADAPTNOW (Interreg Alpine Space Program)"
-    - "ANTICIPATE (COST Action)"
-    - "Atmospheric aerosol emissions and transport in southern Africa (Programma Galileo)"
-    - "CLIMATHUNDERR (ERIES)"
-    - "EXTRALOADINPORTS (ERIES)"
-    - "CoPe (PNRR)"
-    - "CU-BOLD (ERIES)"
-    - "Dipartimento d'Eccellenza (MUR)"
-    - "Ecliptic (PRIN22)"
-    - "HOLISTIC (PNRA)"
-    - "LIDAR (ERIES)"
-    - "NEWS (PRIN22 PNRR)"
-    - "RESILIENCE (CARIPARO)"
-    - "Space It Up (ASI)"
   people:
     former_members:
       - name: "Angela Modica Scala, PhD"
@@ -200,7 +185,7 @@ collections:
   publications:
     output: false
   research:
-    output: false
+    output: true
     permalink: /research/:name/
   news:
     output: true
