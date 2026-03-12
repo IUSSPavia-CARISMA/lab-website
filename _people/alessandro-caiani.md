@@ -1,7 +1,7 @@
 ---
 name: "Alessandro Caiani, Prof."
 slug: "alessandro-caiani"
-position: "Associate Professor"
+position: "Associate Professor in Economics"
 role: "Professor"
 group: "Professor"
 sort_order: 3

@@ -7,31 +7,132 @@ permalink: /about/
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
-<div class="prose-block">
-  <h2>{{ site.lab.full_name }}</h2>
-  {% for paragraph in site.lab.overview.intro %}
-  <p>{{ paragraph }}</p>
-  {% endfor %}
+<div class="prose-block people-section">
+  <h2>Our History</h2>
+  <div class="two-column-grid">
+    <div>
+      <p><strong>{{ site.lab.full_name }} ({{ site.lab.name }})</strong> was founded in {{ site.lab.founded }} at {{ site.lab.university }} and is led by {{ site.lab.head }}.</p>
+      {% for paragraph in site.lab.overview.intro %}
+      <p>{{ paragraph }}</p>
+      {% endfor %}
+      <h3>Our Objectives</h3>
+      <ul class="plain-list">
+        {% for item in site.lab.overview.objectives %}
+        <li>{{ item | markdownify }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="history-images">
+      <figure class="history-image-card">
+        <img src="{{ '/assets/img/carisma_2019.jpeg' | relative_url }}" alt="CARISMA team 2019">
+        <figcaption>CARISMA team - 2019</figcaption>
+      </figure>
+      <figure class="history-image-card">
+        <img src="{{ '/assets/img/carisma_2022.jpeg' | relative_url }}" alt="CARISMA team 2022">
+        <figcaption>CARISMA team - 2022</figcaption>
+      </figure>
+      <figure class="history-image-card history-images-wide">
+        <img src="{{ '/assets/img/carisma_2026.jpeg' | relative_url }}" alt="CARISMA team 2026">
+        <figcaption>CARISMA team - 2026</figcaption>
+      </figure>
+    </div>
+  </div>
 </div>
 
-<div class="prose-block">
-  <h2>Our Objectives</h2>
-  <ul class="plain-list">
-    {% for item in site.lab.overview.objectives %}
-    <li>{{ item | markdownify }}</li>
-    {% endfor %}
-  </ul>
-</div>
-
-<div class="prose-block">
+<div class="prose-block people-section">
   <h2>Our Team Around the World</h2>
   <p>CARISMA brings together researchers from diverse backgrounds and nationalities, fostering a truly international research environment.</p>
-  <div id="nationality-map"></div>
-  <div id="nationality-legend"></div>
+  <div class="nationality-layout">
+    <div class="nationality-map-wrap">
+      <div id="nationality-map"></div>
+    </div>
+    <div class="nationality-summary-wrap">
+      <div id="nationality-legend"></div>
+    </div>
+  </div>
+</div>
+
+<div class="prose-block people-section">
+  <h2>Our Place</h2>
+  <div class="two-column-grid place-layout">
+    <div id="place-text" class="place-text">
+      <p>CARISMA team is part of the University School for Advanced Studies IUSS Pavia, founded in 1997 in partnership with Pavia's historic merit colleges (Borromeo, Ghislieri, Nuovo, and Santa Caterina) and the Institute for the Right to Study (EDISU). Formally recognised as a university in 2005, IUSS belongs to the Federation of Italian Schools of Advanced Studies, institutions that share a common model of excellence-based, interdisciplinary advanced education.</p>
+      <p>IUSS aims to contribute to the full enhancement of talented young people, taking care of their research training. In this spirit, IUSS coordinates the National PhD Programme in Sustainable Development and Climate Change (<a href="https://www.phd-sdc.it/">PhD SDC</a>), a three-year, fully English-taught doctoral programme co-funded by the Italian Ministry of University and Research. The programme trains the next generation of researchers to address climate change from multiple disciplinary angles, spanning Earth system science, socio-economic analysis, law, technology, and territorial governance. CARISMA serves as the scientific backbone of IUSS contribution to this programme.</p>
+      <p>The main building of IUSS Pavia is the historic Palazzo del Broletto in Piazza Vittoria 15, a 12th-century complex and one of Pavia's most prominent medieval landmarks. You can find instead our group at Palazzo Marelli, located in Piazza Ercole Marelli, part of a contemporary urban redevelopment of the former Ercole Marelli industrial area near the city's historic centre and close to the train station, now a mixed-use district hosting residential houses, private companies, medical labs and shops.</p>
+      <p>You can then find our offices in Piazza Ercole Marelli 15 (second floor), Pavia, Italy. Follow the instructions to find us:</p>
+      <ul class="plain-list">
+        <li><a href="{{https://www.google.com/maps?geocode=FcWRsQId1JuLAA%3D%3D;FUSRsQIdnJyLACnP_r5lbyeHRzHLbN-7sRo4Tg%3D%3D&daddr=Istituto+Universitario+di+Studi+Superiori(IUSS+Pavia),+P.za+Ercole+Marelli,+27100+Pavia+PV&saddr=45.1916208,9.1493955&dirflg=w&ftid=0x4787276f65befecf:0x4e381ab1bbdf6ccb&lucs=,94297699,94231188,94280568,47071704,94218641,94282134,94286869&g_ep=CAISEjI2LjEwLjIuODc3MzE3OTEwMBgAILq3Cyo_LDk0Mjk3Njk5LDk0MjMxMTg4LDk0MjgwNTY4LDQ3MDcxNzA0LDk0MjE4NjQxLDk0MjgyMTM0LDk0Mjg2ODY5QgJJVA%3D%3D&skid=904e327b-7e99-419b-93dc-7b59ee1350a6&g_st=ia}}" target="_blank" rel="noreferrer">Open map and directions</a></li>
+        <li><a href="{{ '/assets/pdf/how_to_find_us.pdf' | relative_url }}" target="_blank" rel="noreferrer">Open PDF directions</a></li>
+      </ul>
+    </div>
+    <div id="place-images" class="place-images">
+      <figure class="history-image-card">
+        <img src="{{ '/assets/img/iuss_pavia_broletto.jpg' | relative_url }}" alt="IUSS Pavia - Palazzo Broletto">
+        <figcaption>IUSS Pavia - Palazzo Broletto</figcaption>
+      </figure>
+      <figure class="history-image-card">
+        <img src="{{ '/assets/img/iuss_pavia_marelli.jpg' | relative_url }}" alt="IUSS Pavia - Palazzo Marelli">
+        <figcaption>IUSS Pavia - Palazzo Marelli</figcaption>
+      </figure>
+    </div>
+  </div>
 </div>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
+  function fitLegendToMapHeight() {
+    const mapEl = document.getElementById('nationality-map');
+    const legendEl = document.getElementById('nationality-legend');
+    const statsEl = legendEl ? legendEl.querySelector('.nationality-stats') : null;
+    if (!mapEl || !legendEl || !statsEl) return;
+
+    if (window.matchMedia('(max-width: 768px)').matches) {
+      legendEl.style.height = 'auto';
+      statsEl.style.setProperty('--legend-scale', '1');
+      statsEl.style.overflowY = 'visible';
+      return;
+    }
+
+    legendEl.style.height = `${mapEl.clientHeight}px`;
+    statsEl.style.setProperty('--legend-scale', '1');
+    statsEl.style.overflowY = 'hidden';
+
+    let scale = 1;
+    const minScale = 0.68;
+    while (statsEl.scrollHeight > statsEl.clientHeight && scale > minScale) {
+      scale = Math.max(minScale, scale - 0.02);
+      statsEl.style.setProperty('--legend-scale', scale.toFixed(2));
+    }
+
+    if (statsEl.scrollHeight > statsEl.clientHeight) {
+      statsEl.style.overflowY = 'auto';
+    }
+  }
+
+  function fitPlaceTextToImagesHeight() {
+    const textEl = document.getElementById('place-text');
+    const imagesEl = document.getElementById('place-images');
+    if (!textEl || !imagesEl) return;
+
+    if (window.matchMedia('(max-width: 768px)').matches) {
+      textEl.style.height = 'auto';
+      textEl.style.overflowY = 'visible';
+      return;
+    }
+
+    textEl.style.height = `${imagesEl.clientHeight}px`;
+    textEl.style.overflowY = textEl.scrollHeight > textEl.clientHeight ? 'auto' : 'hidden';
+  }
+
+  let resizeTimer;
+  window.addEventListener('resize', () => {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(() => {
+      fitLegendToMapHeight();
+      fitPlaceTextToImagesHeight();
+    }, 120);
+  });
+
   // Country coordinates (approximate centers)
   const countryCoords = {
     'Italy': [42.5, 12.5],
@@ -86,8 +187,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
           const marker = L.circleMarker(countryCoords[country], {
             radius: radius,
-            fillColor: '#2563eb',
-            color: '#1e40af',
+            fillColor: '#9DC545',
+            color: '#7ea63a',
             weight: 2,
             opacity: 1,
             fillOpacity: 0.7
@@ -101,6 +202,15 @@ document.addEventListener('DOMContentLoaded', function() {
       const total = Object.values(nationalities).reduce((a, b) => a + b, 0);
       legendHtml += `</ul><p class="total-count"><strong>Total: ${total} members from ${Object.keys(nationalities).length} countries</strong></p></div>`;
       document.getElementById('nationality-legend').innerHTML = legendHtml;
+      fitLegendToMapHeight();
+      requestAnimationFrame(fitLegendToMapHeight);
+      fitPlaceTextToImagesHeight();
+      requestAnimationFrame(fitPlaceTextToImagesHeight);
+
+      const placeImgs = document.querySelectorAll('#place-images img');
+      placeImgs.forEach((img) => {
+        img.addEventListener('load', fitPlaceTextToImagesHeight, { once: true });
+      });
     });
 });
 </script>

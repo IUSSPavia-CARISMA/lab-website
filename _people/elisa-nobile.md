@@ -9,7 +9,7 @@ sort_order: 3
 email: "elisa.nobile@iusspavia.it"
 researchgate: ""
 linkedin: ""
-photo: ""
+photo: "assets/img/people/elisa-nobile-portrait.jpeg"
 ---
 
 Profile details for Dott.ssa Elisa Nobile can be updated here.

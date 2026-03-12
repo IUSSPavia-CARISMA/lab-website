@@ -1,7 +1,7 @@
 ---
 name: "Giorgia Fosser, Prof."
 slug: "giorgia-fosser"
-position: "Associate Professor"
+position: "Associate Professor in Physics of the Earth System"
 role: "Professor"
 group: "Professor"
 sort_order: 7

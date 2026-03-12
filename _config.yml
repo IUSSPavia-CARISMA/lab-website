@@ -29,7 +29,7 @@ lab:
   department: "Climate, Sustainability and Risk"
   university: "Scuola Universitaria Superiore Pavia"
   location: "Pavia, Italy"
-  founded: 2008
+  founded: 2019
   head: "Prof. Marco Gaetani"
   overview:
     intro:
@@ -60,6 +60,8 @@ lab:
         - "Work covers value chains, greenhouse gas emissions, macroeconomic and financial risk, green transition policies, macro-prudential tools and transition risk in carbon-intensive sectors."
         - "Analyses combine agent-based and stock-flow consistent macroeconomic models, network models, econometrics and machine learning."
   projects:
+    - "ANTICIPATE (COST Action)"
+    - "Atmospheric aerosol emissions and transport in southern Africa (Programma Galileo)"
     - "RESILIENCE (CARIPARO)"
     - "Dipartimento d'Eccellenza (MUR)"
     - "Ecliptic (PRIN22)"
@@ -72,22 +74,45 @@ lab:
     - "CoPe (PNRR)"
     - "CU-BOLD (ERIES)"
     - "LIDAR (ERIES)"
-    - "Atmospheric aerosol emissions and transport in southern Africa (Programma Galileo)"
-    - "ANTICIPATE (COST Action)"
   people:
     former_members:
-      - name: "Dr. Muhammad Nasir Imam"
+      - name: "Angela Modica Scala, PhD"
         orcid: ""
-      - name: "Dr. Marco Chericoni"
+      - name: "Fatemeh Mojtahedi, PhD"
         orcid: ""
-      - name: "Dott.ssa Laura T. Massano"
+      - name: "Giulia Sturlese, MSc"
         orcid: ""
-      - name: "Dott.ssa Modica Scala Angela"
+      - name: "Laura T. Massano, PhD"
         orcid: ""
-      - name: "Dr. Naveen Ragu Ramalingam"
+      - name: "Luigi Cesarini, PhD"
         orcid: ""
-      - name: "Dott.ssa Franza Teresa"
+      - name: "Ignacio Gatti, PhD"
         orcid: ""
+      - name: "Marco Cadau, PhD"
+        orcid: ""
+      - name: "Margherita D'Ayala, PhD"
+        orcid: ""
+      - name: "Muhammad Nasir Imam, PhD"
+        orcid: ""
+      - name: "Naveen Ragu Ramalingam, PhD"
+        orcid: ""
+      - name: "Riccardo Giusti, PhD"
+        orcid: ""
+      - name: "Teresa Felici, MSc"
+        orcid: ""
+      - name: "Wazita Scott, PhD"
+        orcid: ""
+  recent_publications:
+    - authors: "Nobile, E. G. L., Figueiredo, R., Arrighi, C., Romao, X., and Martina, M. L. V"
+      title: "Flood risk assessment of cultural heritage across countries and spatial scales"
+      journal: "International Journal of Disaster Risk Reduction"
+      year: 2025
+      doi: "https://doi.org/10.1016/j.ijdrr.2025.105236"
+    - authors: "White, C. J., Adnan, M. S. G., Arosio, M., Buller, S., Cha, Y., Ciurean, R., Crummy, J. M., Duncan, M., Gill, J., Kennedy, C., Nobile, E., Smale, L., and Ward, P. J."
+      title: "Review article: Towards multi-hazard and multi-risk indicators – a review and recommendations for development and implementation"
+      journal: "Nat. Hazards Earth Syst. Sci."
+      year: 2025
+      doi: "https://doi.org/10.5194/nhess-25-4263-2025"
   collaborations:
     national:
       - "ENEA"
@@ -152,6 +177,8 @@ navigation:
     url: "/publications/"
   - title: "Education"
     url: "/education/"
+  - title: "Resources"
+    url: "/resources/"
   - title: "News"
     url: "/news/"
   - title: "Contact"

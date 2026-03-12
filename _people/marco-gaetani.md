@@ -1,7 +1,7 @@
 ---
 name: "Marco Gaetani, Prof."
 slug: "marco-gaetani"
-position: "Head of Research Centre"
+position: "Head of Research Centre, Associate Professor in Physics of the Earth System"
 role: "Head"
 group: "Head"
 sort_order: 1

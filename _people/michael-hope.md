@@ -9,7 +9,7 @@ sort_order: 20
 email: "michael.hope@iusspavia.it"
 researchgate: ""
 linkedin: ""
-photo: ""
+photo: "assets/img/people/michael.jpeg"
 ---
 
 Profile details for Dr. Michael Hope can be updated here.

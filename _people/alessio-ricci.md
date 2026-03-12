@@ -1,7 +1,7 @@
 ---
 name: "Alessio Ricci, Prof."
 slug: "alessio-ricci"
-position: "Associate Professor"
+position: "Associate Professor of Fluid Dynamics and Wind Engineering"
 role: "Professor"
 group: "Professor"
 sort_order: 4

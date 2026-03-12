@@ -9,7 +9,7 @@ sort_order: 10
 email: "ahmed.durrani@iusspavia.it"
 researchgate: ""
 linkedin: ""
-photo: ""
+photo: "assets/img/people/owais.jpeg"
 ---
 
 Profile details for Dr. Owais Ahmed Durrani can be updated here.

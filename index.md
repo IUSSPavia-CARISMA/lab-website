@@ -32,3 +32,45 @@ title: CARISMA
     </ul>
   </div>
 </section>
+
+<section class="centre-section" markdown="0">
+  <div class="container">
+    <h2>Latest News</h2>
+    <div class="news-grid">
+      {% assign latest_news = site.news | sort: "date" | reverse %}
+      {% for post in latest_news limit:3 %}
+      <article class="news-card">
+        <time class="news-card-date" datetime="{{ post.date | date_to_xmlschema }}">
+          {{ post.date | date: "%B %-d, %Y" }}
+        </time>
+        <h3 class="news-card-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <p class="news-card-excerpt">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
+        <a href="{{ post.url | relative_url }}" class="news-card-link">Read more →</a>
+      </article>
+      {% endfor %}
+    </div>
+    <div class="news-view-all">
+      <a href="{{ '/news/' | relative_url }}" class="btn btn-secondary">View all news</a>
+    </div>
+  </div>
+</section>
+
+<section class="centre-section" markdown="0">
+  <div class="container">
+    <h2>Latest Publications</h2>
+    <div class="publications-grid">
+      {% for pub in site.lab.recent_publications limit:3 %}
+      <article class="publication-card">
+        <span class="publication-card-year">{{ pub.year }}</span>
+        <h3 class="publication-card-title">{{ pub.title }}</h3>
+        <p class="publication-card-authors">{{ pub.authors }}</p>
+        <p class="publication-card-journal"><em>{{ pub.journal }}</em></p>
+        <a href="{{ pub.doi }}" target="_blank" rel="noreferrer" class="publication-card-link">View publication →</a>
+      </article>
+      {% endfor %}
+    </div>
+    <div class="news-view-all">
+      <a href="{{ '/publications/' | relative_url }}" class="btn btn-secondary">View all publications</a>
+    </div>
+  </div>
+</section>

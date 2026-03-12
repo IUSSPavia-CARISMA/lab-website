@@ -4,7 +4,7 @@ title: Research
 permalink: /research/
 ---
 
-<div class="prose-block">
+<div class="prose-block people-section">
   <h2>Main Research Activities</h2>
   <ul class="plain-list">
     {% for item in site.lab.overview.activities %}
@@ -13,7 +13,7 @@ permalink: /research/
   </ul>
 </div>
 
-<div class="prose-block">
+<div class="prose-block people-section">
   <h2>Research Areas</h2>
   <div class="editorial-sections">
     {% for area in site.lab.activity_sections %}
@@ -27,7 +27,7 @@ permalink: /research/
   </div>
 </div>
 
-<div class="prose-block">
+<div class="prose-block people-section">
   <h2>Research Projects</h2>
   <ul class="project-list">
     {% for item in site.lab.projects %}
@@ -36,21 +36,24 @@ permalink: /research/
   </ul>
 </div>
 
-<div class="two-column-grid">
-  <div class="info-panel">
-    <h2>National Collaborations</h2>
-    <ul class="plain-list">
-      {% for item in site.lab.collaborations.national %}
-      <li>{{ item }}</li>
-      {% endfor %}
-    </ul>
-  </div>
-  <div class="info-panel">
-    <h2>International Collaborations</h2>
-    <ul class="plain-list">
-      {% for item in site.lab.collaborations.international %}
-      <li>{{ item }}</li>
-      {% endfor %}
-    </ul>
+<div class="prose-block people-section">
+  <h2>Collaborations</h2>
+  <div class="two-column-grid">
+    <div class="info-panel">
+      <h3>National</h3>
+      <ul class="plain-list">
+        {% for item in site.lab.collaborations.national %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="info-panel">
+      <h3>International</h3>
+      <ul class="plain-list">
+        {% for item in site.lab.collaborations.international %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </div>
   </div>
 </div>

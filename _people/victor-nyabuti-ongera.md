@@ -9,7 +9,7 @@ sort_order: 14
 email: "victor.ongera@iusspavia.it"
 researchgate: ""
 linkedin: ""
-photo: ""
+photo: "assets/img/people/victor-ongera.png"
 ---
 
 Profile details for Dr. Victor Nyabuti Ong'era can be updated here.
