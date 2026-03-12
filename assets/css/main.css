@@ -10,6 +10,8 @@
   --color-muted: #6b7280;
   --color-bg: #ffffff;
   --color-border: #e5e7eb;
+  --color-card-bg: #fbfcfc;
+  --color-section-bg: #f8fbfd;
 
   --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
   --font-serif: 'Playfair Display', Georgia, serif;
@@ -23,6 +25,56 @@
   --radius-sm: 0.25rem;
   --radius-md: 0.5rem;
   --radius-lg: 1rem;
+}
+
+/* Dark Mode */
+html[data-theme="dark"] {
+  --color-primary: #60a5fa;
+  --color-secondary: #34d399;
+  --color-accent: #f87171;
+  --color-dark: #f3f4f6;
+  --color-light: #1f2937;
+  --color-text: #d1d5db;
+  --color-muted: #9ca3af;
+  --color-bg: #111827;
+  --color-border: #374151;
+  --color-card-bg: #1f2937;
+  --color-section-bg: #1a202c;
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: var(--spacing-sm);
+  border-radius: var(--radius-md);
+  color: var(--color-text);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  margin-left: var(--spacing-md);
+}
+
+.theme-toggle:hover {
+  background-color: var(--color-border);
+}
+
+.theme-toggle .sun-icon {
+  display: block;
+}
+
+.theme-toggle .moon-icon {
+  display: none;
+}
+
+html[data-theme="dark"] .theme-toggle .sun-icon {
+  display: none;
+}
+
+html[data-theme="dark"] .theme-toggle .moon-icon {
+  display: block;
 }
 
 /* Reset & Base Styles */
@@ -53,13 +105,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  color: #7ea63a;
+  color: var(--color-text);
   text-decoration: none;
   transition: color 0.2s ease;
 }
 
 a:hover {
-  color: #9DC545;
+  color: var(--color-dark);
 }
 
 img {
@@ -164,6 +216,21 @@ img {
 .logo-icon {
   height: 40px;
   width: auto;
+}
+
+.logo-icon.logo-light {
+  display: block;
+}
+
+.logo-icon.logo-dark {
+  display: none;
+}
+
+html[data-theme="dark"] .logo-icon.logo-light {
+  display: none;
+}
+
+html[data-theme="dark"] .logo-icon.logo-dark {
   display: block;
 }
 
@@ -1675,8 +1742,8 @@ img {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #e8f5d9 0%, #d4e9c1 100%);
-  color: #7ea63a;
+  background: linear-gradient(135deg, #e8f5d2 0%, #d6ebad 100%);
+  color: #9DC545;
   margin-bottom: var(--spacing-md);
 }
 
@@ -1729,4 +1796,77 @@ img {
   .contact-grid {
     grid-template-columns: 1fr;
   }
+}
+
+/* Dark Mode Overrides */
+html[data-theme="dark"] .centre-hero {
+  background:
+    radial-gradient(circle at top right, rgba(96, 165, 250, 0.08), transparent 24%),
+    linear-gradient(180deg, #1a202c 0%, #111827 100%);
+}
+
+html[data-theme="dark"] .activity-left {
+  background-color: #1f2937;
+  border-color: var(--color-border);
+}
+
+html[data-theme="dark"] .activity-right {
+  background-color: #1f2937;
+}
+
+html[data-theme="dark"] .card,
+html[data-theme="dark"] .person-card,
+html[data-theme="dark"] .project-card,
+html[data-theme="dark"] .publication-card,
+html[data-theme="dark"] .resource-card {
+  background-color: var(--color-card-bg);
+  border-color: var(--color-border);
+}
+
+html[data-theme="dark"] .site-footer {
+  background-color: #0d1117;
+}
+
+html[data-theme="dark"] .footer-bottom {
+  border-top-color: #1f2937;
+}
+
+html[data-theme="dark"] .filter-btn {
+  border-color: var(--color-border);
+  color: var(--color-text);
+}
+
+html[data-theme="dark"] .filter-btn:hover,
+html[data-theme="dark"] .filter-btn.active {
+  background-color: #9DC545;
+  color: #111827;
+}
+
+html[data-theme="dark"] .hero-slider {
+  background-color: #1f2937;
+}
+
+html[data-theme="dark"] .education-section,
+html[data-theme="dark"] .news-section,
+html[data-theme="dark"] .section-alt {
+  background-color: var(--color-section-bg);
+}
+
+html[data-theme="dark"] .contact-card {
+  background: linear-gradient(135deg, #1e3a5f 0%, #1a2e4a 100%);
+}
+
+html[data-theme="dark"] .contact-card-icon {
+  background: linear-gradient(135deg, #e8f5d2 0%, #d6ebad 100%);
+  color: #9DC545;
+}
+
+html[data-theme="dark"] .contact-card h3,
+html[data-theme="dark"] .contact-card p,
+html[data-theme="dark"] .contact-card a {
+  color: #e5e7eb;
+}
+
+html[data-theme="dark"] .course-card {
+  background: linear-gradient(135deg, #1a2e4a 0%, #1e3a5f 100%);
 }

@@ -5,7 +5,7 @@ permalink: /contact/
 ---
 
 <div class="prose-block page-section">
-  <h2>Get in Touch</h2>
+  <h2>Get in touch</h2>
   <p class="contact-intro">We welcome inquiries from prospective collaborators, students, and partners. Please reach out through any of the channels below.</p>
 
   <div class="contact-grid">
